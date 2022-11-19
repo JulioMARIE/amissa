@@ -60,7 +60,6 @@ class CustomTextFieldState extends State<CustomTextField> {
       obscureText: obscureText,
       controller: widget.controller,
       textInputAction: TextInputAction.done,
-      
       onChanged: widget.onChanged,
       maxLengthEnforcement: MaxLengthEnforcement.enforced,
       decoration: (widget.decoration != null)
